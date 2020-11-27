@@ -1,0 +1,119 @@
+body {
+    text-align:center;
+    font-family: open sans; sans-serif;
+    background-color: #8771C9;
+    color:#FFFFFF;
+    margin:0;
+    margin: 100px auto 20px auto;
+}
+  
+h2{
+    color:#2A0074;
+    font-size: 40px;
+}
+  
+.título-verde{
+    color:#04ff9f
+}
+  
+.título-rosa{
+    color: #ff9e9e;
+}
+  
+.título-amarelo{
+    color: #ffe36d;
+}
+  
+section{
+    width: 60%;
+    margin: 0 auto;
+}
+  
+section section{
+    width: 100%;
+}
+  
+h1{
+    font-size:60px;
+    font-weight: 300;
+}
+  
+h3{
+    font-size: 22px;
+    font-style: italic;
+}
+
+p{
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+}
+  
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+  
+ul{
+    list-style-type: none;
+    line-height: 2;
+    padding-left: 0;
+}
+    
+a{
+    text-decoration: none;
+    color: #99ffff;
+    font-weight: 700;
+}
+  
+/* unvisited link */
+a:link {
+    color: #99ffff;
+    position: relative;
+}
+  
+/* mouse over link */
+a:hover {
+    color: #FF6CB5;
+    text-shadow: 2px 2px 5px #8B3A62;
+    position: -10px;
+    box-shadow: 0 5px 10px #666;
+}  
+  
+.principal a{
+    color: #FFF;
+    text-decoration: #FFF underline;
+    font-weight: normal;
+}
+  
+.principal {
+    height: 40px;
+    background: #FF6CB5;
+    width:60%;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+  
+.principal li{
+    display: inline-block;
+    line-height: 2.5;
+    margin: 0 89px;
+}
+  
+button{
+    background: #41f341;
+    border: 1px solid transparent;
+    padding: 2px 20px;
+    border-radius: 3px;
+}
+
+#nome, #email, #telefone{
+    border-radius: 3px;
+}
+
+footer{
+    font-style: italic;
+    font-size: 15px;
+    margin: 30px auto;
+    color: #000000;
+}
